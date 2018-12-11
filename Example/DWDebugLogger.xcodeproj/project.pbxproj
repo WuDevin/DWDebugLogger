@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		46EF575BFA8A259DC4FC7E19 /* Pods_DWDebugLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWDebugLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538D53409592B4DB0A31C61C /* Pods-DWDebugLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWDebugLogger_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWDebugLogger_Example/Pods-DWDebugLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B68E292F27BDBEC4F8065B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B68E292F27BDBEC4F8065B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DWDebugLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWDebugLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E7FBD0A2A99483FCADF4F6F /* Pods-DWDebugLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWDebugLogger_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWDebugLogger_Example/Pods-DWDebugLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		94F162F4AD62AF58A205275D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94F162F4AD62AF58A205275D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D34C39C145CAC1988B8394C /* Pods-DWDebugLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWDebugLogger_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWDebugLogger_Tests/Pods-DWDebugLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE537591966B5496D7427A91 /* Pods_DWDebugLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWDebugLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4B9E1FD345543A902A6357 /* Pods-DWDebugLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWDebugLogger_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWDebugLogger_Tests/Pods-DWDebugLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8E024695246FCED84C6081A /* DWDebugLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DWDebugLogger.podspec; path = ../DWDebugLogger.podspec; sourceTree = "<group>"; };
+		D8E024695246FCED84C6081A /* DWDebugLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DWDebugLogger.podspec; path = ../DWDebugLogger.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = WuDevin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Z35S33J39R;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -299,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DWDebugLogger_Tests-checkManifestLockResult.txt",
 			);
@@ -321,15 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DWDebugLogger_Example-checkManifestLockResult.txt",
 			);
@@ -343,15 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DWDebugLogger_Example/Pods-DWDebugLogger_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DWDebugLogger/DWDebugLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DWDebugLogger.framework",
 			);
@@ -497,6 +488,7 @@
 			baseConfigurationReference = 8E7FBD0A2A99483FCADF4F6F /* Pods-DWDebugLogger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DWDebugLogger/DWDebugLogger-Prefix.pch";
 				INFOPLIST_FILE = "DWDebugLogger/DWDebugLogger-Info.plist";
@@ -512,6 +504,7 @@
 			baseConfigurationReference = 538D53409592B4DB0A31C61C /* Pods-DWDebugLogger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DWDebugLogger/DWDebugLogger-Prefix.pch";
 				INFOPLIST_FILE = "DWDebugLogger/DWDebugLogger-Info.plist";

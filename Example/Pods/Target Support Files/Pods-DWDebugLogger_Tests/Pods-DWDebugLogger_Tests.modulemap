@@ -1,0 +1,6 @@
+framework module Pods_DWDebugLogger_Tests {
+  umbrella header "Pods-DWDebugLogger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

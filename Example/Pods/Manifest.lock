@@ -1,0 +1,16 @@
+PODS:
+  - DWDebugLogger (0.1.0)
+
+DEPENDENCIES:
+  - DWDebugLogger (from `../`)
+
+EXTERNAL SOURCES:
+  DWDebugLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DWDebugLogger: 2510dd9ae5dc3a34ba3fe7ebdb8d0f7e4617d912
+
+PODFILE CHECKSUM: df7858f6ee72ad61f2c2455f73a3ddf54735c07b
+
+COCOAPODS: 1.5.3
